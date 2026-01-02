@@ -1,0 +1,14 @@
+location = "canadacentral"
+rg_name = "aca-dapr-demo-rg"
+env_name = "aca-env-demo"
+publisher_app_name = "publisher"
+worker_app_name = "worker"
+publisher_image = "docker.io/you/publisher:tag"
+worker_image = "docker.io/you/worker:tag"
+publisher_port = 8080
+worker_port = 5690
+sb_namespace_name = "sb-aca-dapr-demo2025-newest"
+sb_queue_name = "orders"
+worker_min_replicas = 0
+worker_max_replicas = 3
+keda_message_threshold = 5
